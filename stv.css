@@ -160,13 +160,18 @@ img:hover{
         width:50%;
     }
     h1{
-        padding-top:20px;
+        padding-top:12px;
         font-size:2.1rem;
     }
 
     form{
 
-        padding-top:15px;
+        padding-top:20px;
+    }
+
+    input:focus{
+    
+        width:60%;
     }
     
 }
@@ -179,4 +184,9 @@ img:hover{
     h1{
         padding-top:30px;
     }
+    input:focus{
+    
+        width:30%;
+    }
+    
 }
