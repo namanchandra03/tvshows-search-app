@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+
+      background-color:white;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+h1{
+
+       color:rgb(24,24,24);
+       font-size:2rem;
+       margin-top:10px;
+       padding-top: 15px;
+       letter-spacing:1px;
+       font-family: 'Lora', serif;
+}
+
+
+
+form{
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top:22px;
+    margin-bottom: 10px;
+    padding-left:12px;
+    padding-top:5px;
+    
+}
+input{
+
+      width:50%;
+      height: 25px;
+      border:2px solid purple;
+      border-radius:10px;
+      outline: none;
+}
+button{
+     
+    color: violet;
+    background-color:white;
+    border:none;
+    right: 35px;
+    height:26px;
+    margin-top:2px;
+    padding-left:9px;
+    outline:none;
+    position: relative;
+    
+}
+input::placeholder{
+
+      padding-left:5px;
+      font-family: 'Lora', serif;
+}
+.top-part{
+    text-align: center; 
+    height:10vh;
+    background-color:white;
+    margin-top:5px;
+}
+
+
+button:focus{
+    outline: none;
+}
+
+input:focus{
+
+    outline:none;
+    background-color:none;
+}
+.container{
+
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width: 65%;
+    justify-content:space-evenly;
+    margin:auto;
+}
+
+.image{
+
+    margin-top:20px;
+    border-radius:1rem;
+    box-shadow: 0 2px 10px  #373838 ;
+}
+
+.search-result{
+
+    text-align: center;
+    margin-top:18px;
+    padding-top: 15px;
+    margin-bottom:10px;
+    font-size:1.9rem;
+    letter-spacing:1px;
+}
+
+img:hover{
+
+    transform:translateY(-5px);
+}
+
+@media(max-width:999px){
+    
+ input{
+
+        width:50%;
+    }
+    h1{
+        padding-top:20px;
+        font-size:2.1rem;
+    }
+
+    form{
+
+        padding-top:15px;
+    }
+    
+}
+@media(min-width:1000px){
+
+    input{
+
+        width:20%;
+    }
+    h1{
+        padding-top:30px;
+    }
+}
